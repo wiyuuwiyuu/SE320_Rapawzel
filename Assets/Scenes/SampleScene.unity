@@ -664,7 +664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1326920712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,8 +1365,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.15, y: 0.2}
+  m_Offset: {x: 0.007993153, y: 0}
+  m_Size: {x: 0.102040954, y: 0.2}
   m_Direction: 0
 --- !u!50 &1579630187
 Rigidbody2D:
@@ -1394,7 +1394,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1579630188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1402,12 +1402,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579630183}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39970fb570fd16546aa9c4bb78005e4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  rb: {fileID: 0}
+  rb: {fileID: 1579630187}
   checkGrounded: 0
   doubleJump: 0
   nextToWall: 0
