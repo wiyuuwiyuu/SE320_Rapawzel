@@ -14,6 +14,9 @@ public class Player : MonoBehaviour
     public float lastWay;
     private float moveSpeed = 3.0f;
     public GameObject bomb;
+    public Animator animator;
+    public int facingDirection = 1;
+    
     
 
     public void Awake()
@@ -24,16 +27,24 @@ public class Player : MonoBehaviour
     }
 
     void Update()
-    {    
+    {
+        animator.SetFloat("xSpeed", rb.linearVelocity.magnitude);
         HandleCollisions();
         SetDoubleJump();
         SetLastWay();
         xInput = Input.GetAxis("Horizontal");
+        if (xInput > 0 && transform.localScale.x < 0 || xInput < 0 && transform.localScale.x > 0)
+        {
+            facingDirection *= -1;
+            transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+        }
         
         if (checkGrounded)
         {
+            
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                
                 Jump();
             }
         } 
@@ -79,6 +90,7 @@ public class Player : MonoBehaviour
     private void Jump()
     {
         rb.linearVelocity = new Vector2(xInput * moveSpeed, 5.0f);
+        
     }
 
     private void SetLastWay()

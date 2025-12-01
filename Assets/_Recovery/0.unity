@@ -684,7 +684,6 @@ MonoBehaviour:
   lastWay: 0
   bomb: {fileID: 0}
   animator: {fileID: 0}
-  facingDirection: 1
 --- !u!58 &1326920713
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1417,7 +1416,6 @@ MonoBehaviour:
   lastWay: 0
   bomb: {fileID: 0}
   animator: {fileID: 1579630189}
-  facingDirection: 1
 --- !u!95 &1579630189
 Animator:
   serializedVersion: 7

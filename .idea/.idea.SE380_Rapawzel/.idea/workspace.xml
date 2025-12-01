@@ -6,6 +6,169 @@
   <component name="ChangeListManager">
     <list default="true" id="f4c7f413-f915-4ed2-bee1-b840116fec7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/1_Cat_Idle-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/1_Cat_Idle-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/2_Cat_Run-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/2_Cat_Run-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/3_Cat_Jump-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/3_Cat_Jump-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/4_Cat_Fall-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/4_Cat_Fall-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/14-TileSets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/14-TileSets/Decorations (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/14-TileSets/Decorations (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/14-TileSets/Terrain (32x32).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/14-TileSets/Terrain (32x32).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_17.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_17.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_18.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_18.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_19.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_19.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_21.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_21.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_22.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_22.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_23.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_23.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_25.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_25.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_26.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_26.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_27.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_27.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_28.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_28.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_29.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_29.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_30.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_30.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_31.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_31.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_32.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_32.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_33.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_33.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_34.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_34.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_35.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_35.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_36.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_36.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_37.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_37.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_38.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_38.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_39.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_39.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_40.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_40.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_41.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_41.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_42.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_42.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_43.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_43.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_44.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_44.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_45.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_45.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_46.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_46.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_47.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_47.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_48.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_48.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_49.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_49.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_50.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_50.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_51.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_51.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_52.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_52.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_53.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_53.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_54.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_54.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_55.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_55.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_56.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_56.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_57.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_57.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_58.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_58.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_59.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_59.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_60.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_60.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_61.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_61.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_62.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_62.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_63.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_63.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_64.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_64.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_65.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_65.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_66.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_66.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_67.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_67.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_68.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_68.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_69.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_69.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/Nature-Platform-Tiles/nature-paltformer-tileset-16x16_9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/TileMap.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Tiles/TileMap.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +178,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wiyuuwiyuu&quot;
+  }
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/wiyuuwiyuu/SE380_Rapawzel.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/wiyuuwiyuu/SE320_Rapawzel.git&quot;,
     &quot;accountId&quot;: &quot;1e65c4be-a001-4f36-a83a-c3d6f0176117&quot;
   }
 }</component>
@@ -29,24 +198,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Program Files\UnityHubEditor\6000.2.6f2\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\githubDesktop\SE380_Rapawzel -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\githubDesktop\SE380_Rapawzel" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -58,7 +227,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Program Files\UnityHubEditor\6000.2.6f2\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\githubDesktop\SE380_Rapawzel -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\githubDesktop\SE380_Rapawzel" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -112,6 +281,8 @@
       <workItem from="1764201515009" duration="37000" />
       <workItem from="1764206499569" duration="5000" />
       <workItem from="1764206945873" duration="297000" />
+      <workItem from="1764549282575" duration="2234000" />
+      <workItem from="1764596233747" duration="2481000" />
     </task>
     <servers />
   </component>
