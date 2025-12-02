@@ -13,7 +13,6 @@ public class Player : MonoBehaviour
     public bool nextToWall;
     public float lastWay;
     private float moveSpeed = 3.0f;
-    public GameObject bomb;
     public Animator animator;
     public int facingDirection = 1;
     
@@ -33,7 +32,7 @@ public class Player : MonoBehaviour
         SetDoubleJump();
         SetLastWay();
         xInput = Input.GetAxis("Horizontal");
-        if (xInput > 0 && transform.localScale.x < 0 || xInput < 0 && transform.localScale.x > 0)
+        if ((xInput > 0 && transform.localScale.x < 0) || (xInput < 0 && transform.localScale.x > 0))
         {
             facingDirection *= -1;
             transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
@@ -66,11 +65,6 @@ public class Player : MonoBehaviour
         else
         {
             rb.linearVelocity = new Vector2(xInput * moveSpeed, rb.linearVelocity.y);
-        }
-
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            Instantiate(bomb, transform.position, Quaternion.identity);
         }
 
     }
