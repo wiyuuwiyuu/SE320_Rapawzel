@@ -5,59 +5,52 @@ public class Hook : MonoBehaviour
     private LineRenderer _lineRenderer;
     private DistanceJoint2D _distanceJoint2D;
     private Rigidbody2D _rigidbody2D;
-    private Node _selectedNode;
-    public float releaseBoost = 0.6f;
     private Player _player;
+    
+    public float releaseBoost = 0.6f;
+    public float hookRange = 10f;
+    public LayerMask layerMask;  //tutmasını isteidğimiz layer inspectordan verilcek
     
     void Start()
     {
         _lineRenderer = GetComponent<LineRenderer>();
         _distanceJoint2D = GetComponent<DistanceJoint2D>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _player=GetComponent<Player>();
+        
         _lineRenderer.enabled = false;
         _distanceJoint2D.enabled = false; 
-        _selectedNode = null;
-        _player=GetComponent<Player>();
+        
+        _distanceJoint2D.autoConfigureDistance = false;
+        
+        
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        NodeBehaviour(); 
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            if (!_distanceJoint2D.enabled)
+            {
+                ShootHook();
+            }
+        }
+
+        if (Input.GetKeyUp(KeyCode.L))
+        {
+            if (_distanceJoint2D.enabled)
+            {
+                ReleaseWithMomentum();
+            }
+        }
+
+        UpdateRope();
+       
         
     }
 
-    public void SelectedNode(Node node)
-    {
-        _selectedNode = node;
-    }
-
-    public void DeselectedNode()
-    {
-        ReleaseWithMomentum();
-        _selectedNode = null;
-    }
-
-    private void NodeBehaviour()
-    {
-        if (_selectedNode == null)
-        {
-            _lineRenderer.enabled = false;
-            _distanceJoint2D.enabled = false;
-            return;
-        }
-        _lineRenderer.enabled = true;
-        _distanceJoint2D.enabled = true;
-        
-        _distanceJoint2D.connectedBody = _selectedNode.GetComponent<Rigidbody2D>();
-
-        if (_selectedNode != null)
-        {
-            _lineRenderer.SetPosition(0,transform.position); 
-            _lineRenderer.SetPosition(1,_selectedNode.transform.position);
-        }
-         
-    }
+   
     
     public bool IsHooked()
     {
@@ -85,5 +78,59 @@ public class Hook : MonoBehaviour
         {
             _player.NotifyHookReleased();
         }
+    }
+
+    public void ShootHook()
+    {
+        if (_player == null) return;
+
+        int dir = _player.facingDirection;   //1=sağ -1=sol
+        //Vector2 shootDirection=new Vector2(dir,1f).normalized;  //45derece
+        Vector2 shootDirection=new Vector2(dir,1.7f).normalized; //60derece
+        
+        Debug.DrawRay(transform.position, shootDirection * hookRange, Color.yellow, 1f);
+
+
+        RaycastHit2D hit = Physics2D.Raycast(
+            transform.position,
+            shootDirection,
+            hookRange,
+            layerMask
+        );
+
+        if (!hit) return;
+        if (hit.normal.y > -0.5f)
+            return;
+        
+        Rigidbody2D hitRb = hit.collider.attachedRigidbody;
+        if (hitRb == null) return;
+        
+
+        _distanceJoint2D.connectedBody = hitRb;
+        _distanceJoint2D.connectedAnchor = hitRb.transform.InverseTransformPoint(hit.point);
+
+        _distanceJoint2D.distance = Vector2.Distance(transform.position, hit.point);
+
+        _distanceJoint2D.enabled = true;
+
+        _lineRenderer.enabled = true;
+        _lineRenderer.SetPosition(0, transform.position);
+        _lineRenderer.SetPosition(1, hit.point);
+        
+
+
+    }
+
+    private void UpdateRope()
+    {
+        
+        if (_lineRenderer == null) return;
+        if (_distanceJoint2D == null) return;
+        if (!_distanceJoint2D.enabled) return;
+        if (_distanceJoint2D.connectedBody == null) return;
+
+        Vector2 worldAnchor = _distanceJoint2D.connectedBody.transform.TransformPoint(_distanceJoint2D.connectedAnchor);
+        _lineRenderer.SetPosition(0, transform.position);
+        _lineRenderer.SetPosition(1, worldAnchor);
     }
 }
