@@ -25,6 +25,9 @@ public class Player : MonoBehaviour
     private float _dashTime = 0.3f;
     private float _dashCooldown = 2f;
     private float originalGravity;
+
+    private Hook hook;
+    private float hookRelaseLockTime;
     
     
     
@@ -35,6 +38,8 @@ public class Player : MonoBehaviour
         checkGrounded = true;
         nextToWall = false;
         rb.gravityScale *= 1.5f;
+
+        hook = GetComponent<Hook>();
     }
 
     void Update()
@@ -83,8 +88,25 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && _canDash)
         {
             StartCoroutine("Dash");
-        } 
-        if(!_isDashing) {rb.linearVelocity = new Vector2(_xInput * _moveSpeed, rb.linearVelocity.y);}
+        }
+
+        if (!_isDashing)
+        {
+            if (hook != null && hook.IsHooked())
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y);
+            }
+            else if (Time.time<hookRelaseLockTime)
+            {
+                //hook yeni bırakılınca ->x momentumu korumak için 
+                rb.linearVelocity=new Vector2(rb.linearVelocity.x, rb.linearVelocity.y);    
+            }
+            else
+            {
+                rb.linearVelocity = new Vector2(_xInput * _moveSpeed, rb.linearVelocity.y);
+            }
+           
+        }
     }
     
     
@@ -141,5 +163,9 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(_xInput, originalGravity);
         yield return new WaitForSeconds(_dashCooldown);
         _canDash = true;
+    }
+    public void NotifyHookReleased()
+    {
+        hookRelaseLockTime = Time.time + 0.45f;
     }
 }

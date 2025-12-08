@@ -6,6 +6,9 @@ public class Hook : MonoBehaviour
     private DistanceJoint2D _distanceJoint2D;
     private Rigidbody2D _rigidbody2D;
     private Node _selectedNode;
+    public float releaseBoost = 0.6f;
+    private Player _player;
+    
     void Start()
     {
         _lineRenderer = GetComponent<LineRenderer>();
@@ -14,6 +17,7 @@ public class Hook : MonoBehaviour
         _lineRenderer.enabled = false;
         _distanceJoint2D.enabled = false; 
         _selectedNode = null;
+        _player=GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -30,6 +34,7 @@ public class Hook : MonoBehaviour
 
     public void DeselectedNode()
     {
+        ReleaseWithMomentum();
         _selectedNode = null;
     }
 
@@ -52,5 +57,33 @@ public class Hook : MonoBehaviour
             _lineRenderer.SetPosition(1,_selectedNode.transform.position);
         }
          
+    }
+    
+    public bool IsHooked()
+    {
+        return _distanceJoint2D != null && _distanceJoint2D.enabled;
+    }
+
+    public void ReleaseWithMomentum()
+    {
+        if (_distanceJoint2D.enabled)
+        {
+            Vector2 releaseVelocity = _rigidbody2D.linearVelocity;
+            
+            Vector2 boost = new Vector2(releaseVelocity.x, releaseVelocity.y * 0.3f);
+
+            _rigidbody2D.AddForce(boost * releaseBoost, ForceMode2D.Impulse);
+
+            _distanceJoint2D.enabled = false;
+            _lineRenderer.enabled = false;
+
+            _distanceJoint2D.distance = 0f;
+
+        }
+
+        if (_player != null)
+        {
+            _player.NotifyHookReleased();
+        }
     }
 }
