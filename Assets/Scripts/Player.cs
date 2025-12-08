@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
+using UnityEditorInternal.VersionControl;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -25,6 +26,10 @@ public class Player : MonoBehaviour
     private float _dashTime = 0.3f;
     private float _dashCooldown = 2f;
     private float originalGravity;
+
+    public GameObject Hook; 
+    private bool _canGrapple = true;
+    
     
     
     
@@ -85,6 +90,13 @@ public class Player : MonoBehaviour
             StartCoroutine("Dash");
         } 
         if(!_isDashing) {rb.linearVelocity = new Vector2(_xInput * _moveSpeed, rb.linearVelocity.y);}
+        
+        if(rb.linearVelocity.y < -13f) {rb.linearVelocity = new Vector2(rb.linearVelocity.x, -13f);}
+
+        if (Input.GetKeyDown(KeyCode.R) && _canGrapple)
+        {
+            Instantiate(Hook, new Vector2(10f, 10f), Quaternion.AngleAxis(45* facingDirection, Vector3.up) );
+        }
     }
     
     

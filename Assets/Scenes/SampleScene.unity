@@ -162,7 +162,7 @@ MonoBehaviour:
       Offset: {x: 0, y: 0}
   CenterOnActivate: 0
   TargetOffset: {x: 0, y: 1, z: 0}
-  Damping: {x: 1, y: 1, z: 1}
+  Damping: {x: 1, y: 0.6, z: 1}
   Lookahead:
     Enabled: 0
     Time: 0
@@ -7155,6 +7155,7 @@ MonoBehaviour:
   wallWay: 0
   _canDash: 1
   _isDashing: 0
+  Hook: {fileID: 0}
 --- !u!58 &1326920713
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8366,6 +8367,7 @@ MonoBehaviour:
   wallWay: 0
   _canDash: 1
   _isDashing: 0
+  Hook: {fileID: 0}
 --- !u!95 &1579630189
 Animator:
   serializedVersion: 7
