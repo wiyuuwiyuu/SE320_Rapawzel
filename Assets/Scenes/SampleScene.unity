@@ -188,7 +188,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 1579630185}
+    TrackingTarget: {fileID: 712945762}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -6800,6 +6800,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &712945762 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4240535663821255449, guid: 4fe767ff35f278240b776233013786d8, type: 3}
+  m_PrefabInstance: {fileID: 1723436420}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &728245000
 GameObject:
   m_ObjectHideFlags: 0

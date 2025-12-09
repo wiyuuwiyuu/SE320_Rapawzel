@@ -37,7 +37,7 @@ public class Hook : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.L))
+        if (Input.GetKeyUp(KeyCode.L) || _player.checkGrounded)
         {
             if (_distanceJoint2D.enabled)
             {
