@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c7f413-f915-4ed2-bee1-b840116fec7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LvlLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LvlLoader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
