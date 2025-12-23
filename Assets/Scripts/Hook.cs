@@ -28,8 +28,8 @@ public class Hook : MonoBehaviour
 
     
     void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.L))
+    {   
+        if (Input.GetKeyDown(KeyCode.L) && _player.gotMagicHair)
         {
             if (!_distanceJoint2D.enabled)
             {
@@ -37,7 +37,7 @@ public class Hook : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.L) || _player.checkGrounded)
+        if (Input.GetKeyUp(KeyCode.L) || _player.checkGrounded || _player.nextToWall)
         {
             if (_distanceJoint2D.enabled)
             {
@@ -79,7 +79,7 @@ public class Hook : MonoBehaviour
             _player.NotifyHookReleased();
         }
     }
-
+    
     public void ShootHook()
     {
         if (_player == null) return;

@@ -31248,6 +31248,10 @@ PrefabInstance:
       value: -897259391
       objectReference: {fileID: 0}
     - target: {fileID: 4176984338335103003, guid: 4fe767ff35f278240b776233013786d8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 893810c9bf381cf4ca29c51cf63bd9a7, type: 2}
+    - target: {fileID: 4176984338335103003, guid: 4fe767ff35f278240b776233013786d8, type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
       value: 0.0034305276
       objectReference: {fileID: 0}

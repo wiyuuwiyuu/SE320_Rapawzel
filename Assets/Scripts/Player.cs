@@ -20,6 +20,12 @@ public class Player : MonoBehaviour
     public int wallWay;
     private bool _canWallJump;
 
+    public bool gotJumpBoots = false;
+    public bool gotClaws = false;
+    public bool gotDashBoots = false;
+    public bool gotMagicHair = false;
+    
+
     public bool _canDash = true;
     public bool _isDashing;
     private float _dashSpeed = 10f;
@@ -70,11 +76,11 @@ public class Player : MonoBehaviour
                 Jump();
             }
         } 
-        else if (Input.GetKeyDown(KeyCode.Space) && _canWallJump)
+        else if (Input.GetKeyDown(KeyCode.Space) && _canWallJump && gotClaws) //WallJump
         {
             Jump();
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && doubleJump)
+        else if (Input.GetKeyDown(KeyCode.Space) && doubleJump && gotJumpBoots) //DoubleJump
         {
             Jump();
             doubleJump = false;
@@ -89,7 +95,7 @@ public class Player : MonoBehaviour
         }
         
         //else if (nextToWall) {rb.linearVelocity = new Vector2(Input.GetAxis("Horizontal"), rb.linearVelocity.y*4/5);}
-        if (Input.GetKeyDown(KeyCode.LeftShift) && _canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && _canDash && gotDashBoots)
         {
             StartCoroutine("Dash");
         }
@@ -172,5 +178,10 @@ public class Player : MonoBehaviour
     public void NotifyHookReleased()
     {
         hookRelaseLockTime = Time.time + 0.45f;
+    }
+
+    public void GetClaws()
+    {
+        gotClaws = true;
     }
 }
