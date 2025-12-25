@@ -42,6 +42,7 @@ public class Hook : MonoBehaviour
             if (_distanceJoint2D.enabled)
             {
                 ReleaseWithMomentum();
+                _player.doubleJump = true;
             }
         }
 

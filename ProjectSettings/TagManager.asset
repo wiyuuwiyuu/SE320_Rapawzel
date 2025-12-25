@@ -45,6 +45,9 @@ TagManager:
   - name: BackGroung
     uniqueID: 3802198175
     locked: 0
+  - name: Trail
+    uniqueID: 3062277629
+    locked: 0
   - name: Player
     uniqueID: 3397707905
     locked: 0

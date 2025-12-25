@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
 {
     public Rigidbody2D rb; 
     private float _xInput;
+    public TrailRenderer trail;
     private float _wallCheckDistance = 0.51f;
     private float _groundCheckDistance = 0.55f;
     public bool checkGrounded;
@@ -94,7 +95,7 @@ public class Player : MonoBehaviour
             }
         }
         
-        //else if (nextToWall) {rb.linearVelocity = new Vector2(Input.GetAxis("Horizontal"), rb.linearVelocity.y*4/5);}
+       // else if (nextToWall) {rb.linearVelocity = new Vector2(Input.GetAxis("Horizontal"), rb.linearVelocity.y*4/5);}
         if (Input.GetKeyDown(KeyCode.LeftShift) && _canDash && gotDashBoots)
         {
             StartCoroutine("Dash");
@@ -168,8 +169,10 @@ public class Player : MonoBehaviour
         originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         rb.linearVelocity = new Vector2(facingDirection * _dashSpeed, 0f);
+        trail.emitting = true;
         yield return new WaitForSeconds(_dashTime);
         _isDashing = false;
+        trail.emitting = false;
         rb.gravityScale = originalGravity;
         rb.linearVelocity = new Vector2(_xInput, originalGravity);
         yield return new WaitForSeconds(_dashCooldown);
@@ -179,9 +182,5 @@ public class Player : MonoBehaviour
     {
         hookRelaseLockTime = Time.time + 0.45f;
     }
-
-    public void GetClaws()
-    {
-        gotClaws = true;
-    }
+    
 }
