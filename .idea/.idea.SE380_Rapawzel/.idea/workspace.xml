@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c7f413-f915-4ed2-bee1-b840116fec7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LvlLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LvlLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/level picker.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/level picker.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/main scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +134,7 @@
       <workItem from="1765146556496" duration="3507000" />
       <workItem from="1765225773071" duration="9102000" />
       <workItem from="1766256182458" duration="1500000" />
+      <workItem from="1766706477898" duration="1777000" />
     </task>
     <servers />
   </component>
