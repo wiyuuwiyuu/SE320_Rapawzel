@@ -20,7 +20,9 @@ public class Player : MonoBehaviour
     public int facingDirection = 1;
     public int wallWay;
     private bool _canWallJump;
-
+    public jumpBoost jumpBoost;
+    private bool isWallSliding = false;
+    
     public bool gotJumpBoots = false;
     public bool gotClaws = false;
     public bool gotDashBoots = false;
@@ -33,10 +35,7 @@ public class Player : MonoBehaviour
     private float _dashTime = 0.3f;
     private float _dashCooldown = 2f;
     private float originalGravity;
-
-    //public GameObject Hook; 
-    //private bool _canGrapple = true;
-
+    
     private Hook hook;
     private float hookRelaseLockTime;
     
@@ -55,8 +54,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        
         animator.SetFloat("xSpeed", rb.linearVelocity.magnitude);
+        
         if (_isDashing)
         {
             return;
@@ -69,6 +68,7 @@ public class Player : MonoBehaviour
             facingDirection *= -1;
             transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
         }
+        if(gotClaws){SetIsWallSliding();}
         
         if (checkGrounded)
         {
@@ -84,6 +84,7 @@ public class Player : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.Space) && doubleJump && gotJumpBoots) //DoubleJump
         {
             Jump();
+            Instantiate(jumpBoost, transform.position, Quaternion.identity);
             doubleJump = false;
         }
 
@@ -95,7 +96,6 @@ public class Player : MonoBehaviour
             }
         }
         
-       // else if (nextToWall) {rb.linearVelocity = new Vector2(Input.GetAxis("Horizontal"), rb.linearVelocity.y*4/5);}
         if (Input.GetKeyDown(KeyCode.LeftShift) && _canDash && gotDashBoots)
         {
             StartCoroutine("Dash");
@@ -155,6 +155,23 @@ public class Player : MonoBehaviour
         }
         else
         { wallWay = 0; }
+    }
+
+    private void SetIsWallSliding()
+    {
+        if (nextToWall && (_xInput / wallWay) > 0)
+        {   if (rb.linearVelocity.y <= -2)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, -2);
+            }
+            isWallSliding = true;
+            animator.speed = 0;
+        }
+        else
+        {
+            isWallSliding = false;
+            animator.speed = 1;
+        }
     }
     private void SetCanWallJump()
     {

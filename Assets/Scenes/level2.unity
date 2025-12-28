@@ -133,7 +133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 418515907456244610, guid: 4fe767ff35f278240b776233013786d8, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 418515907456244610, guid: 4fe767ff35f278240b776233013786d8, type: 3}
       propertyPath: m_SortingLayerID
@@ -253,7 +253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4176984338335103003, guid: 4fe767ff35f278240b776233013786d8, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4176984338335103003, guid: 4fe767ff35f278240b776233013786d8, type: 3}
       propertyPath: m_SortingLayerID
@@ -315,6 +315,14 @@ PrefabInstance:
       propertyPath: trail
       value: 
       objectReference: {fileID: 1516950305}
+    - target: {fileID: 6247484564026705202, guid: 4fe767ff35f278240b776233013786d8, type: 3}
+      propertyPath: jumpBoost
+      value: 
+      objectReference: {fileID: -566468428965198354, guid: c5f9b8b8f784dab4a81e0b8ca31e6ec6, type: 3}
+    - target: {fileID: 6247484564026705202, guid: 4fe767ff35f278240b776233013786d8, type: 3}
+      propertyPath: _jumpBoost
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6247484564026705202, guid: 4fe767ff35f278240b776233013786d8, type: 3}
       propertyPath: gotJumpBoots
       value: 1
