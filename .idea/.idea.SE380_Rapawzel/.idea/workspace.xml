@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4c7f413-f915-4ed2-bee1-b840116fec7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tiles/14-TileSets/Terrain Night(32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tiles/14-TileSets/Terrain Night(32x32).png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +136,7 @@
       <workItem from="1766877929769" duration="8000" />
       <workItem from="1766878313535" duration="626000" />
       <workItem from="1766879999795" duration="1139000" />
+      <workItem from="1767038918461" duration="2207000" />
     </task>
     <servers />
   </component>
