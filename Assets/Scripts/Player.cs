@@ -21,7 +21,8 @@ public class Player : MonoBehaviour
     public int wallWay;
     private bool _canWallJump;
     public jumpBoost jumpBoost;
-    private bool isWallSliding = false;
+    public bool isWallSliding = false;
+    public ParticleSystem slidingDust;
     
     public bool gotJumpBoots = false;
     public bool gotClaws = false;
@@ -62,6 +63,7 @@ public class Player : MonoBehaviour
         }
         HandleCollisions();
         SetDoubleJump();
+        
         _xInput = Input.GetAxis("Horizontal");
         if ((_xInput > 0 && transform.localScale.x < 0) || (_xInput < 0 && transform.localScale.x > 0))
         {
@@ -69,7 +71,7 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
         }
         if(gotClaws){SetIsWallSliding();}
-        
+        DustMaker();
         if (checkGrounded)
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -173,6 +175,15 @@ public class Player : MonoBehaviour
             animator.speed = 1;
         }
     }
+
+    void DustMaker()
+    {
+        if (isWallSliding)
+        {
+            slidingDust.Play();
+        }
+    }
+    
     private void SetCanWallJump()
     {
         if (nextToWall && facingDirection / wallWay < 0) {_canWallJump = true;}

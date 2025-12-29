@@ -8,7 +8,7 @@ public class jumpBoost : MonoBehaviour
     void Start()
     {   
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        Destroy(this.gameObject, 1);
+        Destroy(this.gameObject, 0.6f);
     }
 
     
