@@ -4983,6 +4983,7 @@ MonoBehaviour:
   facingDirection: 1
   wallWay: 0
   jumpBoost: {fileID: -566468428965198354, guid: c5f9b8b8f784dab4a81e0b8ca31e6ec6, type: 3}
+  isWallSliding: 0
   slidingDust: {fileID: 6275548458499085487}
   gotJumpBoots: 0
   gotClaws: 0
@@ -5176,7 +5177,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 5.6936855
+  m_Distance: 7.793799
   m_MaxDistanceOnly: 0
 --- !u!114 &679164310858257601
 MonoBehaviour:

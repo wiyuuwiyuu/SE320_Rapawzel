@@ -1,9 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEditorInternal.VersionControl;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -62,6 +64,7 @@ public class Player : MonoBehaviour
             return;
         }
         HandleCollisions();
+        SetTraps();
         SetDoubleJump();
         
         _xInput = Input.GetAxis("Horizontal");
@@ -138,6 +141,14 @@ public class Player : MonoBehaviour
         {nextToWall = true; } else {nextToWall = false;}
         SetWallWay();
         SetCanWallJump();
+    }
+
+    private void SetTraps()
+    {
+        if(Physics2D.Raycast(transform.position, Vector2.down, _groundCheckDistance, LayerMask.GetMask("Traps")))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
     private void Jump()

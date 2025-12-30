@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 275d97391b97fbd4eaa9159d630f5160
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8168443805324891764
+    second: Terrain Night(32x32) 1_0
+  - first:
+      213: -7647129373772682225
+    second: Terrain Night(32x32) 1_1
+  - first:
+      213: -5420317838814876673
+    second: Terrain Night(32x32) 1_2
+  - first:
+      213: 7471538203728610000
+    second: Terrain Night(32x32) 1_3
+  - first:
+      213: -7084744068876685706
+    second: Terrain Night(32x32) 1_4
+  - first:
+      213: -2833303213996146355
+    second: Terrain Night(32x32) 1_5
+  - first:
+      213: -4594672398778331790
+    second: Terrain Night(32x32) 1_6
+  - first:
+      213: -8354090493584067236
+    second: Terrain Night(32x32) 1_7
+  - first:
+      213: 8956889199453548094
+    second: Terrain Night(32x32) 1_8
+  - first:
+      213: -4685227902813814187
+    second: Terrain Night(32x32) 1_9
+  - first:
+      213: 4021880843044565833
+    second: Terrain Night(32x32) 1_10
+  - first:
+      213: 4627064528202201256
+    second: Terrain Night(32x32) 1_11
+  - first:
+      213: 1627727355123069086
+    second: Terrain Night(32x32) 1_12
+  - first:
+      213: -6501101426987452533
+    second: Terrain Night(32x32) 1_13
+  - first:
+      213: 3434925351104871845
+    second: Terrain Night(32x32) 1_14
+  - first:
+      213: 7147735113486931126
+    second: Terrain Night(32x32) 1_15
+  - first:
+      213: -5481881455971137948
+    second: Terrain Night(32x32) 1_16
+  - first:
+      213: 7725329141201902949
+    second: Terrain Night(32x32) 1_17
+  - first:
+      213: -8605674383736692697
+    second: Terrain Night(32x32) 1_18
+  - first:
+      213: -4857933080158329317
+    second: Terrain Night(32x32) 1_19
+  - first:
+      213: 1236752397962872653
+    second: Terrain Night(32x32) 1_20
+  - first:
+      213: 9049398061125113541
+    second: Terrain Night(32x32) 1_21
+  - first:
+      213: 7797645879962898541
+    second: Terrain Night(32x32) 1_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89aed723abd3ae80800000000000000
+      internalID: -8168443805324891764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ce2dcc950ffd590800000000000000
+      internalID: -7647129373772682225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbe9b7c4a927c4b0800000000000000
+      internalID: -5420317838814876673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 319
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2010f096c30b760800000000000000
+      internalID: 7471538203728610000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 319
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eac025eceedad90800000000000000
+      internalID: -7084744068876685706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 319
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4189c40db51ea8d0800000000000000
+      internalID: -2833303213996146355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 223
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d86830cc17c30c0800000000000000
+      internalID: -4594672398778331790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55347c35fe401c80800000000000000
+      internalID: -8354090493584067236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 223
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e26f175434d4c70800000000000000
+      internalID: 8956889199453548094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 223
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552c809bb0abafeb0800000000000000
+      internalID: -4685227902813814187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_10
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 223
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943be92615790d730800000000000000
+      internalID: 4021880843044565833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 127
+        width: 162
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a87d445ca2a63040800000000000000
+      internalID: 4627064528202201256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_12
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 223
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90fb49c769d69610800000000000000
+      internalID: 1627727355123069086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 95
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87b0ab42b277c5a0800000000000000
+      internalID: -6501101426987452533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 95
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adf696686e4baf20800000000000000
+      internalID: 3434925351104871845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_15
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 127
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b499f3273bd13360800000000000000
+      internalID: 7147735113486931126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 127
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4660a0c2cd17ce3b0800000000000000
+      internalID: -5481881455971137948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d10526ce1e53b60800000000000000
+      internalID: 7725329141201902949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72022b82eb0829880800000000000000
+      internalID: -8605674383736692697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_19
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 31
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b162b8e1a97259cb0800000000000000
+      internalID: -4857933080158329317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 31
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4780bbd0c3d92110800000000000000
+      internalID: 1236752397962872653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_21
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 31
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c69870479be59d70800000000000000
+      internalID: 9049398061125113541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain Night(32x32) 1_22
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 31
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d601a773d9dc63c60800000000000000
+      internalID: 7797645879962898541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Terrain Night(32x32) 1_0: -8168443805324891764
+      Terrain Night(32x32) 1_1: -7647129373772682225
+      Terrain Night(32x32) 1_10: 4021880843044565833
+      Terrain Night(32x32) 1_11: 4627064528202201256
+      Terrain Night(32x32) 1_12: 1627727355123069086
+      Terrain Night(32x32) 1_13: -6501101426987452533
+      Terrain Night(32x32) 1_14: 3434925351104871845
+      Terrain Night(32x32) 1_15: 7147735113486931126
+      Terrain Night(32x32) 1_16: -5481881455971137948
+      Terrain Night(32x32) 1_17: 7725329141201902949
+      Terrain Night(32x32) 1_18: -8605674383736692697
+      Terrain Night(32x32) 1_19: -4857933080158329317
+      Terrain Night(32x32) 1_2: -5420317838814876673
+      Terrain Night(32x32) 1_20: 1236752397962872653
+      Terrain Night(32x32) 1_21: 9049398061125113541
+      Terrain Night(32x32) 1_22: 7797645879962898541
+      Terrain Night(32x32) 1_3: 7471538203728610000
+      Terrain Night(32x32) 1_4: -7084744068876685706
+      Terrain Night(32x32) 1_5: -2833303213996146355
+      Terrain Night(32x32) 1_6: -4594672398778331790
+      Terrain Night(32x32) 1_7: -8354090493584067236
+      Terrain Night(32x32) 1_8: 8956889199453548094
+      Terrain Night(32x32) 1_9: -4685227902813814187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
