@@ -17,6 +17,8 @@ public class Door : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        SceneManager.LoadScene("Scenes/level2");
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
+        // goes to the next scene so we can re use this code
     }
 }
