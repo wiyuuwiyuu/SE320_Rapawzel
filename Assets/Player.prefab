@@ -4992,6 +4992,7 @@ MonoBehaviour:
   _canDash: 1
   _isDashing: 0
   heartBar: {fileID: 0}
+  spriteRenderer: {fileID: 7470495708348603157}
 --- !u!95 &4597493829435122518
 Animator:
   serializedVersion: 7

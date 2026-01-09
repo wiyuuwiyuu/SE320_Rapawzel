@@ -422,6 +422,10 @@ PrefabInstance:
       propertyPath: gotJumpBoots
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6247484564026705202, guid: 4fe767ff35f278240b776233013786d8, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1516950312}
     - target: {fileID: 6275548458499085487, guid: 4fe767ff35f278240b776233013786d8, type: 3}
       propertyPath: lengthInSec
       value: 0.1
@@ -3900,7 +3904,6 @@ MonoBehaviour:
   fullHeart: {fileID: 1329704722365665875, guid: 4730933c83c924b49b132b2e308ab80c, type: 3}
   emptyHeart: {fileID: -7285311378200338956, guid: 4730933c83c924b49b132b2e308ab80c, type: 3}
   maxHealth: 2
-  currentHealth: 1
 --- !u!1 &479980199
 GameObject:
   m_ObjectHideFlags: 0
@@ -17517,6 +17520,11 @@ MonoBehaviour:
 --- !u!96 &1516950305 stripped
 TrailRenderer:
   m_CorrespondingSourceObject: {fileID: 418515907456244610, guid: 4fe767ff35f278240b776233013786d8, type: 3}
+  m_PrefabInstance: {fileID: 119818769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1516950312 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7470495708348603157, guid: 4fe767ff35f278240b776233013786d8, type: 3}
   m_PrefabInstance: {fileID: 119818769}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1531350476

@@ -175,7 +175,6 @@ MonoBehaviour:
   fullHeart: {fileID: 1329704722365665875, guid: 4730933c83c924b49b132b2e308ab80c, type: 3}
   emptyHeart: {fileID: -7285311378200338956, guid: 4730933c83c924b49b132b2e308ab80c, type: 3}
   maxHealth: 2
-  currentHealth: 0
 --- !u!1 &121071911
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,7 +693,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 717, y: 325}
+  m_AnchoredPosition: {x: 754, y: 456}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476360771
@@ -981,7 +980,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 851, y: 325}
+  m_AnchoredPosition: {x: 851, y: 456}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &590140995
