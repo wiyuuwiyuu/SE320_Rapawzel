@@ -48,6 +48,7 @@ public class Player : MonoBehaviour
     private Coroutine damageCoroutine;
     public SpriteRenderer spriteRenderer;
     private Color originalColor;
+    private bool isKnockedBack;
 
     
     
@@ -116,7 +117,7 @@ public class Player : MonoBehaviour
             StartCoroutine("Dash");
         }
 
-        if (!_isDashing)
+        if (!_isDashing&& !isKnockedBack)
         {   
             if(rb.linearVelocity.y < -13f) {rb.linearVelocity = new Vector2(rb.linearVelocity.x, -13f);}
             if (hook != null && hook.IsHooked())
@@ -164,6 +165,8 @@ public class Player : MonoBehaviour
 
             heartBar.TakeDamage(1);
             
+            ApplyKnockback();
+            
             checkGrounded = true;
             doubleJump = true;
             
@@ -183,6 +186,25 @@ public class Player : MonoBehaviour
         
         }
         
+    }
+    
+    private void ApplyKnockback()
+    {
+        isKnockedBack = true;
+    
+        float horizontalDir = transform.localScale.x > 0 ? -1f : 1f;
+    
+        // Instead of AddForce, we set the velocity directly
+        // This forces the player to move at a specific speed instantly
+        rb.linearVelocity = new Vector2(horizontalDir * 3f, 3f); 
+    
+        StartCoroutine(EndKnockback());
+    }
+
+    private IEnumerator EndKnockback()
+    {
+        yield return new WaitForSeconds(0.3f); // How long the player is "stunned"
+        isKnockedBack = false;
     }
     
     private IEnumerator DamageCooldown()
