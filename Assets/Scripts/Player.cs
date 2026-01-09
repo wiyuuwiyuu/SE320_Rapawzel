@@ -42,9 +42,12 @@ public class Player : MonoBehaviour
     private Hook hook;
     private float hookRelaseLockTime;
     
+    //heart
     public HeartBar heartBar;
     private bool canTakeDamage = true;
     private Coroutine damageCoroutine;
+    public SpriteRenderer spriteRenderer;
+    private Color originalColor;
 
     
     
@@ -58,6 +61,8 @@ public class Player : MonoBehaviour
         rb.gravityScale *= 1.5f;
 
         hook = GetComponent<Hook>();
+        
+        originalColor = spriteRenderer.color;
     }
 
     void Update()
@@ -139,7 +144,8 @@ public class Player : MonoBehaviour
     private void HandleCollisions()
     {
         if(Physics2D.Raycast(transform.position, Vector2.down, _groundCheckDistance, LayerMask.GetMask("Wall")) ||
-           Physics2D.Raycast(transform.position, Vector2.down, _groundCheckDistance, LayerMask.GetMask("Ground")))
+           Physics2D.Raycast(transform.position, Vector2.down, _groundCheckDistance, LayerMask.GetMask("Ground")) ||
+           Physics2D.Raycast(transform.position, Vector2.down, _groundCheckDistance, LayerMask.GetMask("Traps")))
         {checkGrounded= true; } else {checkGrounded = false;}
         if(Physics2D.Raycast(transform.position, Vector2.right, _wallCheckDistance, LayerMask.GetMask("Wall")) ||
            Physics2D.Raycast(transform.position, Vector2.left, _wallCheckDistance, LayerMask.GetMask("Wall")))
@@ -158,7 +164,10 @@ public class Player : MonoBehaviour
 
             heartBar.TakeDamage(1);
             
-            //rb.linearVelocity = new Vector2(rb.linearVelocity.x, 7f);
+            checkGrounded = true;
+            doubleJump = true;
+            
+            StartCoroutine(DamageFlash());
 
             if (heartBar.IsDead())
             {
@@ -180,6 +189,12 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(2f); 
         canTakeDamage = true;
+    }
+    IEnumerator DamageFlash()
+    {
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.15f);
+        spriteRenderer.color = originalColor;
     }
 
     private void Jump()
