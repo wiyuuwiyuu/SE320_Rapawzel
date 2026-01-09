@@ -42,6 +42,11 @@ public class Player : MonoBehaviour
     private Hook hook;
     private float hookRelaseLockTime;
     
+    public HeartBar heartBar;
+    private bool canTakeDamage = true;
+    private Coroutine damageCoroutine;
+
+    
     
     
 
@@ -147,8 +152,34 @@ public class Player : MonoBehaviour
     {
         if(Physics2D.Raycast(transform.position, Vector2.down, _groundCheckDistance, LayerMask.GetMask("Traps")))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            if (!canTakeDamage) return;
+
+            canTakeDamage = false;
+
+            heartBar.TakeDamage(1);
+            
+            //rb.linearVelocity = new Vector2(rb.linearVelocity.x, 7f);
+
+            if (heartBar.IsDead())
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+            else
+            {
+                if (damageCoroutine != null)
+                    StopCoroutine(damageCoroutine);
+
+                damageCoroutine = StartCoroutine(DamageCooldown());
+            }
+        
         }
+        
+    }
+    
+    private IEnumerator DamageCooldown()
+    {
+        yield return new WaitForSeconds(2f); 
+        canTakeDamage = true;
     }
 
     private void Jump()
@@ -221,5 +252,5 @@ public class Player : MonoBehaviour
     {
         hookRelaseLockTime = Time.time + 0.45f;
     }
-    
+   
 }

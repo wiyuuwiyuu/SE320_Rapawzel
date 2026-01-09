@@ -4991,6 +4991,7 @@ MonoBehaviour:
   gotMagicHair: 0
   _canDash: 1
   _isDashing: 0
+  heartBar: {fileID: 0}
 --- !u!95 &4597493829435122518
 Animator:
   serializedVersion: 7
@@ -5094,8 +5095,8 @@ LineRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -897259391
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -5107,8 +5108,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.16945267
+        time: 0.0034305276
+        value: 0.10347335
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -5177,7 +5178,7 @@ DistanceJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 6.4515977
+  m_Distance: 6.912894
   m_MaxDistanceOnly: 0
 --- !u!114 &679164310858257601
 MonoBehaviour:
