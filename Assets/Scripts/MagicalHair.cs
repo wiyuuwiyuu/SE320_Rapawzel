@@ -11,7 +11,7 @@ public class MagicalHair : MonoBehaviour
         if (uiText != null)
         {
             uiText.gameObject.SetActive(true);
-            uiText.text = "Picked up: " + gameObject.name;
+            uiText.text = "Picked up: " + gameObject.name + "   "+" Press L to activate ";
                 
             _player.gotMagicHair = true;
             Destroy(this.gameObject);

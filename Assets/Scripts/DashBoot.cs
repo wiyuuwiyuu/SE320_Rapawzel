@@ -19,7 +19,7 @@ public class DashBoot : MonoBehaviour
     void OnTriggerEnter2D(Collider2D Player)
     {
         uiText.gameObject.SetActive(true);
-        uiText.text = "Picked up: " + gameObject.name;
+        uiText.text = "Picked up: " + gameObject.name + "   "+" Press Shift to activate ";
         
         _player.gotDashBoots = true;
         Destroy(this.gameObject);

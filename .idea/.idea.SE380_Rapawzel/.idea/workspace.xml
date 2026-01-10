@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f4c7f413-f915-4ed2-bee1-b840116fec7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DashBoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DashBoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MagicalHair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MagicalHair.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +23,12 @@
     &quot;assignee&quot;: &quot;wiyuuwiyuu&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/wiyuuwiyuu/SE320_Rapawzel.git",
-    "accountId": "1e65c4be-a001-4f36-a83a-c3d6f0176117"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wiyuuwiyuu/SE320_Rapawzel.git&quot;,
+    &quot;accountId&quot;: &quot;1e65c4be-a001-4f36-a83a-c3d6f0176117&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Shaders/2D/Sprite-Lit-Default.shader" root0="SKIP_HIGHLIGHTING" />
@@ -143,7 +144,8 @@
       <workItem from="1767045046834" duration="1012000" />
       <workItem from="1767894000000" duration="3161000" />
       <workItem from="1767968085593" duration="6861000" />
-      <workItem from="1767988044845" duration="1328000" />
+      <workItem from="1767988044845" duration="1932000" />
+      <workItem from="1768074566041" duration="147000" />
     </task>
     <servers />
   </component>
