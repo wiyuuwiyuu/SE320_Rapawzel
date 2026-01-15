@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4c7f413-f915-4ed2-bee1-b840116fec7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE380_Rapawzel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DashBoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DashBoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MagicalHair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MagicalHair.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +143,8 @@
       <workItem from="1767894000000" duration="3161000" />
       <workItem from="1767968085593" duration="6861000" />
       <workItem from="1767988044845" duration="1932000" />
-      <workItem from="1768074566041" duration="147000" />
+      <workItem from="1768074566041" duration="798000" />
+      <workItem from="1768511688568" duration="357000" />
     </task>
     <servers />
   </component>
