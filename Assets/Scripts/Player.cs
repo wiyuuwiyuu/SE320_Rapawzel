@@ -90,7 +90,7 @@ public class Player : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                Jump();
+                Jump(); 
             }
         } 
         else if (Input.GetKeyDown(KeyCode.Space) && _canWallJump && gotClaws) //WallJump
@@ -149,7 +149,9 @@ public class Player : MonoBehaviour
            Physics2D.Raycast(transform.position, Vector2.down, _groundCheckDistance, LayerMask.GetMask("Traps")))
         {checkGrounded= true; } else {checkGrounded = false;}
         if(Physics2D.Raycast(transform.position, Vector2.right, _wallCheckDistance, LayerMask.GetMask("Wall")) ||
-           Physics2D.Raycast(transform.position, Vector2.left, _wallCheckDistance, LayerMask.GetMask("Wall")))
+           Physics2D.Raycast(transform.position, Vector2.left, _wallCheckDistance, LayerMask.GetMask("Wall"))||
+           Physics2D.Raycast(transform.position, Vector2.right, _wallCheckDistance, LayerMask.GetMask("Ground"))||
+           Physics2D.Raycast(transform.position, Vector2.left, _wallCheckDistance, LayerMask.GetMask("Ground")))
         {nextToWall = true; } else {nextToWall = false;}
         SetWallWay();
         SetCanWallJump();
@@ -265,7 +267,7 @@ public class Player : MonoBehaviour
     
     private void SetCanWallJump()
     {
-        if (nextToWall && facingDirection / wallWay < 0) {_canWallJump = true;}
+        if (nextToWall && (_xInput / wallWay < 0) ) {_canWallJump = true;}
         else{_canWallJump = false;}
     }
 
