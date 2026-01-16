@@ -1319,7 +1319,7 @@ Transform:
   m_GameObject: {fileID: 660927890}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: 0.12999725, z: -10}
+  m_LocalPosition: {x: -0.13, y: -2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3917,7 +3917,7 @@ Transform:
   m_GameObject: {fileID: 804303589}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.13, y: 0.12999725, z: -10}
+  m_LocalPosition: {x: -0.13, y: -2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17818,7 +17818,7 @@ GameObject:
   - component: {fileID: 1070637310}
   - component: {fileID: 1070637309}
   m_Layer: 0
-  m_Name: Idle_0
+  m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17871,17 +17871,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.010270204, y: -0.00067411363}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.71875, y: 0.875}
+    oldSize: {x: 0.1075, y: 0.135}
     newSize: {x: 0.71875, y: 0.875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.71875, y: 0.875}
+  m_Size: {x: 0.22218096, y: 0.18545634}
   m_EdgeRadius: 0
 --- !u!212 &1070637311
 SpriteRenderer:
@@ -17930,7 +17930,7 @@ SpriteRenderer:
   m_SortingLayerID: -897259391
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4723107735738678597, guid: 0c03c9eaed5214d0d90e2f35b83ecd73, type: 3}
+  m_Sprite: {fileID: 1372335161102834277, guid: 918baf30eaa4eda4d8faddc1b6736ab8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -17950,8 +17950,8 @@ Transform:
   m_GameObject: {fileID: 1070637308}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.01, y: 38.99, z: 0}
-  m_LocalScale: {x: 2.1753886, y: 2.2632706, z: 1}
+  m_LocalPosition: {x: -4.88, y: 38.96, z: 0}
+  m_LocalScale: {x: 14.243141, y: 14.818541, z: 6.547401}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

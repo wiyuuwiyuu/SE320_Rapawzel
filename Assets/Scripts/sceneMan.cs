@@ -5,7 +5,7 @@ public class sceneMan : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) || Input.anyKeyDown)
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
             LoadNextScene();
         }

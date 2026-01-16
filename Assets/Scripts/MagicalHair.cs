@@ -11,7 +11,7 @@ public class MagicalHair : MonoBehaviour
         if (uiText != null)
         {
             uiText.gameObject.SetActive(true);
-            uiText.text = "Picked up: " + gameObject.name + "   "+" Press L to activate ";
+            uiText.text = "Picked up: " + gameObject.name +"  \n You can now swing using your hair  \n while you are on air by pressing L  \nIt also lets you jump once more! ";
                 
             _player.gotMagicHair = true;
             Destroy(this.gameObject);

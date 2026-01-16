@@ -19,7 +19,7 @@ public class JumpBootItem : MonoBehaviour
     void OnTriggerEnter2D(Collider2D Player)
     {
         uiText.gameObject.SetActive(true);
-        uiText.text = "Picked up: " + gameObject.name;   
+        uiText.text = "Picked up: " + gameObject.name +   "\n" + "You can now use Double Jump!" ;   
         
         _player.gotJumpBoots = true;
         Destroy(this.gameObject);

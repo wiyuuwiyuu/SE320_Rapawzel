@@ -9,7 +9,7 @@ public class ClawItem : MonoBehaviour
     void OnTriggerEnter2D(Collider2D Player)
     {
         uiText.gameObject.SetActive(true);
-        uiText.text = "Picked up: " + gameObject.name;
+        uiText.text = "Picked up: " + gameObject.name +"\n You can now slide down the walls \n Also you can jump from wall to wall ";
         
         _player.gotClaws = true;
         Destroy(this.gameObject);
